@@ -13,7 +13,7 @@ export const personal = {
   // Drop a real headshot at public/profile.jpg and this will be used automatically.
   photo: '/profile.jpg',
   // Drop a real resume at public/resume.pdf and the Download Resume button will work.
-  resume: '/resume.pdf',
+  resume: '/Shiranjeevi_Resume1.pdf',
   logo: '<ShiranJeevi.dev/>',
 }
 
