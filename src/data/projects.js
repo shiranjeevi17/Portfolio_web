@@ -24,7 +24,7 @@ export const projects = [
     technologies: ['React', 'Java', 'Spring Boot', 'MySQL'],
     category: ['React', 'Java', 'Spring Boot', 'Full Stack'],
     features: ['Product catalog', 'Search & filters', 'Cart & checkout', 'Orders & reviews'],
-    image: 'e-commerce-1.png',
+    image: 'ecommerce-1.png',
     github: 'https://github.com/shiranjeevi17/E-commerce-Platform',
     liveDemo: 'https://e-commerce-platform-sooty-chi.vercel.app/',
     sample: false,
