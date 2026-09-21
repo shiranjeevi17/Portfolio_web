@@ -1,0 +1,73 @@
+.internship-card {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 38px;
+  padding: 38px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at 85% 15%, rgba(168,85,247,.14), transparent 28%),
+    linear-gradient(145deg, var(--bg-card), var(--bg-secondary));
+  box-shadow: var(--shadow-card);
+}
+.internship-card::before {
+  content: '';
+  position: absolute;
+  left: -100px;
+  bottom: -130px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(34,211,238,.07);
+  filter: blur(20px);
+}
+.internship-head { position: relative; display: flex; flex-direction: column; gap: 10px; }
+.internship-company { font-size: 1.45rem; }
+.internship-role { color: var(--primary-soft); font-family: var(--font-mono); font-size: .82rem; }
+.internship-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.internship-meta span {
+  padding: 6px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  background: rgba(255,255,255,.015);
+}
+.internship-cert {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 15px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  color: var(--text-muted);
+  font-size: .82rem;
+}
+.internship-list { position: relative; display: flex; flex-direction: column; gap: 13px; }
+.internship-list h4 { font-size: .98rem; margin-bottom: 3px; }
+.internship-list li {
+  position: relative;
+  padding-left: 23px;
+  color: var(--text-secondary);
+  font-size: .9rem;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+.internship-list.is-visible li { opacity: 1; transform: translateX(0); }
+.internship-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 14px rgba(34,211,238,.6);
+}
+@media (max-width: 760px) { .internship-card { grid-template-columns: 1fr; padding: 27px; } }

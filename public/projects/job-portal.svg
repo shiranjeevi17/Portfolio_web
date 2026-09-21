@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1224"/><stop offset="1" stop-color="#243b8a"/></linearGradient></defs>
+  <rect width="1200" height="750" rx="28" fill="url(#g)"/>
+  <rect x="70" y="65" width="1060" height="620" rx="24" fill="#0b1020" stroke="#5268c9" stroke-opacity=".45"/>
+  <rect x="105" y="105" width="990" height="72" rx="14" fill="#121a31"/>
+  <text x="135" y="151" fill="#fff" font-family="Arial, sans-serif" font-size="30" font-weight="700">JobsPlanet</text>
+  <rect x="410" y="123" width="300" height="34" rx="17" fill="#1c2744"/><text x="435" y="146" fill="#8ea8ff" font-family="Arial" font-size="16">Search jobs, skills, company</text>
+  <rect x="105" y="215" width="300" height="410" rx="18" fill="#11192d"/>
+  <text x="135" y="260" fill="#6d8cff" font-family="Arial" font-size="16" font-weight="700">FILTERS</text>
+  <rect x="135" y="290" width="240" height="42" rx="10" fill="#1b2745"/><text x="153" y="317" fill="#cbd5ff" font-family="Arial" font-size="15">Java / Full Stack</text>
+  <rect x="135" y="350" width="240" height="42" rx="10" fill="#1b2745"/><text x="153" y="377" fill="#cbd5ff" font-family="Arial" font-size="15">Chennai / Bengaluru</text>
+  <rect x="135" y="410" width="240" height="42" rx="10" fill="#1b2745"/><text x="153" y="437" fill="#cbd5ff" font-family="Arial" font-size="15">Any experience</text>
+  <rect x="440" y="215" width="655" height="118" rx="18" fill="#151f38" stroke="#2d3c66"/>
+  <rect x="470" y="245" width="50" height="50" rx="12" fill="#253252"/><text x="486" y="278" fill="#77a0ff" font-family="Arial" font-size="22" font-weight="700">J</text>
+  <text x="545" y="256" fill="#fff" font-family="Arial" font-size="22" font-weight="700">Java Full Stack Developer</text>
+  <text x="545" y="286" fill="#98a6c7" font-family="Arial" font-size="15">Recruitment platform · Apply · Save</text>
+  <rect x="965" y="250" width="95" height="40" rx="20" fill="#5b7ff5"/><text x="984" y="276" fill="#fff" font-family="Arial" font-size="14" font-weight="700">View Job</text>
+  <rect x="440" y="355" width="655" height="118" rx="18" fill="#151f38" stroke="#2d3c66"/>
+  <rect x="470" y="385" width="50" height="50" rx="12" fill="#253252"/><text x="486" y="418" fill="#77a0ff" font-family="Arial" font-size="22" font-weight="700">R</text>
+  <text x="545" y="396" fill="#fff" font-family="Arial" font-size="22" font-weight="700">Recruiter Dashboard</text>
+  <text x="545" y="426" fill="#98a6c7" font-family="Arial" font-size="15">Post jobs · Review applications · Status controls</text>
+  <rect x="440" y="495" width="655" height="130" rx="18" fill="#151f38" stroke="#2d3c66"/>
+  <text x="475" y="540" fill="#6d8cff" font-family="Arial" font-size="15" font-weight="700">SECURED BACKEND</text>
+  <text x="475" y="575" fill="#fff" font-family="Arial" font-size="19" font-weight="700">Spring Boot · JPA · MySQL · JWT</text>
+  <text x="475" y="604" fill="#98a6c7" font-family="Arial" font-size="14">REST APIs with candidate and recruiter workflows</text>
+</svg>
